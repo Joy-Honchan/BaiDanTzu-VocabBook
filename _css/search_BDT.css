@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft JhengHei';
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+select {
+    width: 150px;
+    height: 25px;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: burlywood;
+    min-height: 50px;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keynavbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button#srtopic {
+    background-color: rgb(252, 255, 79);
+    border: none;
+    outline: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15%;
+}
+
+button#srtopic:hover {
+    background-color: rgb(170, 172, 66);
+    cursor: pointer;
+}
+
+input {
+    margin-right: 4px;
+    font-size: 16px;
+    padding-top: 2px;
+    background-color: lightgoldenrodyellow;
+    border: none;
+}
+
+.gamebutton {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.welcoming {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+img#logo {
+    height: 40px;
+    width: auto;
+    object-fit: cover;
+}
+
+.resultsection {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(187, 187, 187), rgb(255, 255, 255));
+}
+
+#searchresult {
+    padding-top: 30px;
+    width: 75%;
+}
+
+.cardcase {
+    width: 100%;
+    height: 350px;
+    overflow: visible;
+    display: flex;
+    flex-wrap: nowrap;
+    /* 縮小螢幕時才不會跨行 */
+    justify-content: space-between;
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    border: 3px solid gray;
+    border-radius: 5%;
+    text-align: center;
+    padding-top: 5px;
+    background-color: ivory;
+}
+
+.card:hover {
+    height: 300px;
+    transition: 0.5s ease-in-out;
+}
+
+img.cardimg {
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+}
+
+img.heart {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+img.heart_like {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.hidding {
+    display: none;
+}
+
+.aniname {
+    font-size: 20px;
+}
+
+.contentbox {
+    padding: 0 15px;
+}
+
+button.like {
+    background-color: ivory;
+    border: none;
+    outline: none;
+}
+
+button.unlike {
+    background-color: ivory;
+    border: none;
+    outline: none;
+}
+
+.likethevocab {
+    display: flex;
+    align-items: center;
+}
